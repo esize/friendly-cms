@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_new_phrases",
+  "info": {
+    "displayName": "Phrase"
+  },
+  "options": {},
+  "attributes": {
+    "Phrase": {
+      "type": "string"
+    }
+  }
+}

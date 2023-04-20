@@ -1,0 +1,33 @@
+{
+  "name": "friendly-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-color-picker": "^4.9.2",
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/provider-upload-cloudinary": "^4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "better-sqlite3": "8.0.1",
+    "node-postgres": "^0.6.2",
+    "pg": "^8.10.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "a86a478a-249d-42eb-b8b3-dab8d122a754"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
